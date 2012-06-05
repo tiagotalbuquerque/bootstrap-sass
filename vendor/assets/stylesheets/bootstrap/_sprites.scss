@@ -21,12 +21,12 @@
   @include ie7-restore-right-whitespace();
   line-height: 14px;
   vertical-align: text-top;
-  background-image: $iconSpritePath;
+  background-image: asset-url("glyphicons-halflings.png", image);
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }
 .icon-white {
-  background-image: $iconWhiteSpritePath;
+  background-image: asset-url("glyphicons-halflings-white.png", image);
 }
 
 .icon-glass              { background-position: 0      0; }
